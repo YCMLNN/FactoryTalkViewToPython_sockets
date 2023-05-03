@@ -24,7 +24,7 @@ To use the VBA application, follow these steps:
 3. Name the control "Winsock1" and set its properties as follows:
    - RemoteHost: set to the IP address of the machine running the Python client application
    - RemotePort: set to the port number used by the Python client application
-4. Add the VBA code provided in the "VBA_temperature_sender.bas" file to the VBA project associated with the display
+4. Add the VBA code provided in the "FTV_VBA_sockets.bas" file to the VBA project associated with the display
 5. Save and run the display
 
 To use the Python client application, follow these steps:
@@ -35,10 +35,10 @@ To use the Python client application, follow these steps:
 pip install -r requirements.txt
 ```
 
-3. Modify the `HOST` and `PORT` variables in the "python_temperature_receiver.py" file to match the IP address and port number used by the VBA application
+3. Modify the `HOST` and `PORT` variables in the "python FTV_PY_sockets.py" file to match the IP address and port number used by the VBA application
 4. Run the Python script:
 ```
-python python_temperature_receiver.py
+python FTV_PY_sockets.py
 ```
 
 
