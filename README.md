@@ -15,7 +15,7 @@ The project includes two components:
 - Microsoft Excel 2010 or higher
 - Python 3.6 or higher
 
-# Why Excel?
+### Why Excel?
 Microsoft Excel is required for the VBA portion of the "FactoryTalkViewToPython_sockets" project because it provides an environment for creating VBA macros and projects.
 
 In the project, the VBA application is created using Microsoft Excel's Visual Basic Editor (VBE), which is a built-in tool that provides a graphical interface for creating, editing, and debugging VBA code.
