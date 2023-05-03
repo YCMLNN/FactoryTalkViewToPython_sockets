@@ -1,4 +1,4 @@
-# FactoryTalkViewToPython_sockets
+# VBA-Python-Socket-Communication
 
 This repository contains sample code for communicating data between FactoryTalk View and a Python application using sockets.
 
