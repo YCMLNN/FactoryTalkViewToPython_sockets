@@ -15,6 +15,15 @@ The project includes two components:
 - Microsoft Excel 2010 or higher
 - Python 3.6 or higher
 
+# Why Excel?
+Microsoft Excel is required for the VBA portion of the "FactoryTalkViewToPython_sockets" project because it provides an environment for creating VBA macros and projects.
+
+In the project, the VBA application is created using Microsoft Excel's Visual Basic Editor (VBE), which is a built-in tool that provides a graphical interface for creating, editing, and debugging VBA code.
+
+The VBA application uses the Winsock control to send temperature data over a socket to a Python client application. The Winsock control is available in Microsoft Office applications, including Excel, and provides an easy way to establish and manage network connections.
+
+Overall, while Microsoft Excel is not strictly required for the Python portion of the project, it is needed for the VBA portion in order to create the VBA application that communicates with the Python client application over a socket.
+
 ## Installation
 
 To use the VBA application, follow these steps:
