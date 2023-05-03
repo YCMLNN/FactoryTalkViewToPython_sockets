@@ -50,5 +50,6 @@ This code is licensed under the MIT License. See the "LICENSE" file for more inf
 
 ## Credits
 
-This project was developed by [your name] and [any collaborators].
+This project was developed by YCML@novonordisk.com (Marco Molinari) for NNUSBPI (Novo Nordisk US Bio Production, Inc.).
+.
 
