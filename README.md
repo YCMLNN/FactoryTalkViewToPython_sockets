@@ -31,3 +31,24 @@ To use the Python client application, follow these steps:
 
 1. Clone this repository to your local machine
 2. Install the required Python packages using pip:
+```
+pip install -r requirements.txt
+```
+
+3. Modify the `HOST` and `PORT` variables in the "python_temperature_receiver.py" file to match the IP address and port number used by the VBA application
+4. Run the Python script:
+```
+python python_temperature_receiver.py
+```
+
+
+The Python script will connect to the VBA application's socket and continuously read temperature data that is sent over the socket, writing it to the console for further analysis or visualization.
+
+## License
+
+This code is licensed under the MIT License. See the "LICENSE" file for more information.
+
+## Credits
+
+This project was developed by [your name] and [any collaborators].
+
